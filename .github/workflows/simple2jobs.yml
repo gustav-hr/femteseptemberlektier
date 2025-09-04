@@ -19,7 +19,7 @@ jobs:
           print(platform.processor())
         shell: python
   run-windows-command:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Directory Powershell
         run: Get-Location
