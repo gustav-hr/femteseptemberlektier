@@ -13,8 +13,8 @@ jobs:
           node -v
           npm -v
           mvn -v
-          - name: Python command
-          run: |
-            import platform
+      - name: Python command
+        run: |
+          import platform
           print(platform.processor())
         shell: python
